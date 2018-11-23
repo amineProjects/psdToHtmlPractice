@@ -1,0 +1,130 @@
+body{
+    background-color: #f8f8f8;
+    font-family: 'Karma', serif;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 500;
+    line-height: 1.5em;
+}
+p{
+    font-weight: 400;
+    line-height: 1.5em;
+}
+/* header area */
+#header-area{
+    width: 100%;
+    border-top: 10px solid #1c1c1c;
+    border-bottom: 1px solid #dddddd;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    clear: both;
+}
+.logo-area {
+    float: left;
+}
+.search-area form{
+    width: 285px;
+    float: right;
+}
+.search-area input[type="search"]{
+    border: 1px solid #dddddd;
+    padding: 10px 6px;
+    height: 32px;
+    background-color: white; 
+    color: #7f7f7f;
+}
+.search-area input[type="submit"]{
+    width: 73px;
+    color: white;
+    background-color: #d54346;
+    border: 1px solid #d54346;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.search-area input[type="submit"]:hover{
+    background: #792728;
+    border: 1px solid #792728;
+}
+
+/* Main Menu */
+#main-menu {
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+    padding: 20px 0px;
+
+}
+#main-menu ul#nav {
+    list-style: none;
+    
+}
+#main-menu ul#nav li {
+    display: inline-block;
+    
+    padding:0px 15px;
+    border-right: 2px solid #c9c9c9;
+}
+#main-menu ul#nav li a{
+    text-decoration: none;
+    color: #333333;
+    text-transform: uppercase;
+}
+#main-menu ul#nav li a:hover{
+    color: #d54346 ;
+}
+
+#main-menu ul#nav li span{
+    display: block;
+    color: #999999;
+    text-transform: capitalize;
+    font-size: 12px;
+    line-height: 1em;
+}
+#main-menu ul#nav li a:hover span{
+    color: #d54346 ;
+    
+}
+
+/* social media */
+.social-area{
+
+}
+.social-area ul{
+    list-style: none;
+    text-align: right;
+    margin: 0px;
+    padding: 0;
+}
+.social-area ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#main-menu .social-area ul li a {
+    width: 35px;
+    height: 35px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+    display: block;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+#main-menu .social-area ul li a#rss:hover{
+    background-color: #fa4c;
+}
+#main-menu .social-area ul li a#facebook:hover{
+    background-color: #4c4867aa;
+}
+#main-menu .social-area ul li a#twitter:hover{
+    background-color: #1da1f2;
+}
+#main-menu .social-area ul li a#google-plus:hover{
+    background-color: #dd5144;
+}
+#main-menu .social-area ul li a#linkedin:hover {
+    background-color: #0274b3;
+}
