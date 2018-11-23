@@ -4,15 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>The Point | PSD to HTML practice</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
   <link rel="manifest" href="site.webmanifest">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css"> 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="src/css/normalize.css">
+  <link rel="stylesheet" href="src/css/main.css"> 
+  <link rel="stylesheet" href="src/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/css/style.css">
 
 
 </head>
@@ -23,21 +23,56 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
+    <div id="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4 logo-area">
+            <a href=""><img src="src/img/logo.png" alt="the web site logo"></a>
+          </div>
+          <div class="col-xs-8 search-area"></div>
+          <form action="">
+            <input type="search" name="search" id="search">
+            <input type="submit" value="search">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="main-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-9">
+            <ul id="nav">
+              <li><a href="">HOMEPAGE<span>test text here</span></a></li>
+                <li><a href="">STYLE DEMO<span>test text here</span></a></li>
+                <li><a href="">FULL WIDTH<span>test text here</span></a></li>
+                <li><a href="">PORTFOLIO<span>test text here</span></a></li>
+                 <li><a href="">DROPDOWN<span>test text here</span></a></li>
+            </ul>
+          </div>
+          <div class="col-xs-3">
+            <ul>
+              <li><a href=""><i class="fab fa-facebook"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+              <li><a href=""><i class="fab fa-google-plus"></i></a></li>
+              <li><a href=""><i class="fa fa-rss"></i></a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     
 
 
 
-
-
-
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="src/js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>  
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/plugins.js"></script>
+  <script>window.jQuery || document.write('<script src="src/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>  
+  <script src="src/js/bootstrap.min.js"></script>
+  <script src="src/js/plugins.js"></script>
   
-  <script src="js/main.js"></script>
+  <script src="src/js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
