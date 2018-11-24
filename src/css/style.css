@@ -190,4 +190,41 @@ p{
 }
 #banner-area .banner-bottom p{
     color: white;
+    padding-top: 10px;
+}
+
+/* client section */
+#client-area{
+    padding: 50px 0;
+    width: 100%;
+    clear: both;
+    text-align: center;
+}
+#client-area h2{
+    color: #4a4a4a;
+    font-size: 38pt;
+}
+#client-area p{
+    color: #999999;
+    font-size: 26pt;
+}
+
+#client-area .client-profiles{
+    margin: 40px 0;
+}
+#client-area .client-profiles p{
+    font-size: 13pt;
+    margin-top: 24px;
+    margin-bottom: 13px;
+}
+#client-area .client-profiles a{
+    text-decoration: none;
+    color: #d54346;
+}
+.thinning-line { 
+    margin: 25px 0;
+    height: 3px;
+    border: 0;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#f8f8f8), to(#f8f8f8), color-stop(50%, #d9d9d9));
 }
