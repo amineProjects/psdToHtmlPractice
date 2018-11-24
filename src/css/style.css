@@ -228,3 +228,49 @@ p{
     background: black;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#f8f8f8), to(#f8f8f8), color-stop(50%, #d9d9d9));
 }
+/* project section */
+#project-section{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#project-section .project-title{
+    text-align: right;
+    text-transform: uppercase;
+    padding-right:44px;
+}
+#project-section .project-title p{
+    color: #4a4a4a;
+    font-size: 20pt;
+}
+#project-section .project-title h2{
+    color: #d44346;
+    font-size: 60pt;
+}
+#project-section img{
+    width: 100%;
+}
+#project-section h2{
+    text-transform: uppercase;
+    color: #4a4a4a;
+    font-size: 20pt;
+    padding: 10px 0;
+}
+#project-section p{
+    text-transform: capitalize;
+    color: #999999;
+    font-size: 13pt;
+}
+#project-section button{
+    text-transform: uppercase;
+    background-color: #d54346;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#project-section button:hover{
+    background-color: #792728;
+}
+#project-section button:active{
+    background-color: #e74548;
+}
