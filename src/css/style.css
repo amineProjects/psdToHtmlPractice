@@ -4,6 +4,7 @@ body{
     line-height: 1.5em;
     font-weight: 400;
 }
+
 h1,h2,h3,h4,h5,h6 {
     font-weight: 500;
     line-height: 1.5em;
@@ -11,6 +12,9 @@ h1,h2,h3,h4,h5,h6 {
 p{
     font-weight: 400;
     line-height: 1.5em;
+}
+.global-padding{
+    padding: 0 20px;
 }
 /* header area */
 #header-area{
@@ -53,7 +57,7 @@ p{
 #main-menu {
     width: 100%;
     border-bottom: 1px solid #dddddd;
-    padding: 20px 0px;
+    padding: 20px;
 
 }
 #main-menu ul#nav {
@@ -88,9 +92,7 @@ p{
 }
 
 /* social media */
-.social-area{
 
-}
 .social-area ul{
     list-style: none;
     text-align: right;
@@ -273,4 +275,99 @@ p{
 }
 #project-section button:active{
     background-color: #e74548;
+}
+
+/* footer section  */
+footer{
+    border-top: 5px solid #871f21;
+    border-bottom: 1px solid #b7282c;
+    background-color: #d54346;
+    padding: 30px 20px;
+}
+
+footer h3{
+    text-transform: uppercase;
+    color: white;
+    font-size: 12pt;
+
+}
+footer p{
+    color:white;
+    font-size: 13pt;
+    padding-top: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: #631618;
+    font-size: 12pt;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #ffbec0;
+}
+footer article{
+    padding-bottom: 20px;
+}
+footer article a {
+    text-transform: capitalize;
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    font-size: 12pt;
+    border-bottom: 1px solid #d85255;
+    padding: 3px 0;
+    padding-left: 15px;
+    position: relative;
+}
+footer ul li:before { 
+    content:"\00bb";
+    position: absolute;
+    left: -1px;
+    color: white;
+ }
+
+ footer form input[type=text]{
+     width: 100%;
+     margin: 10px 0;
+     padding: 8px;
+     border-radius: 10px;
+ }
+ footer form input[type=submit]{
+     width: 82px;
+     margin-bottom: 30px;
+     padding: 8px;
+     color: white;
+     background-color: #871f21;
+     font-size: 12pt;
+     text-transform: uppercase;
+     border-radius: 10px;
+ }
+ 
+ footer .contact-link #contact p{
+    padding-top: 0px;
+    line-height: 0.5em;
+}
+
+ footer .contact-link #contact h3{
+     margin-bottom: 20px;
+ }
+ /* copy right section  */
+ #copy-right{
+    background-color: #d54346;
+    border-top: 1px solid #db6063;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: white;
+}
+#template{
+    text-align: right;
+}
+
+/* overrid boostrap calsses */
+.row{
+    margin-right: 0;
 }

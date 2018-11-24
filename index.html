@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="En">
 
 <head>
   <meta charset="utf-8">
@@ -23,23 +23,20 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-    <div id="header-area">
-      <div class="container">
+    <div id="header-area" class="global-padding">
         <div class="row">
           <div class="col-md-4 logo-area">
             <a href=""><img src="src/img/logo.png" alt="the web site logo"></a>
           </div>
           <div class="col-md-8 search-area">
-          <form action="">
-            <input type="search" name="search" id="search" placeholder="Search the website">
-            <input type="submit" value="search">
-          </form>
+            <form action="">
+              <input type="search" name="search" id="search" placeholder="Search the website">
+              <input type="submit" value="search">
+            </form>
+          </div>
         </div>
-        </div>
-      </div>
     </div>
-    <div id="main-menu">
-      <div class="container">
+    <div id="main-menu" class="global-padding">
         <div class="row">
           <div class="col-md-8 nav-area">
             <ul id="nav">
@@ -47,7 +44,10 @@
                 <li><a href="">STYLE DEMO<span>test text here</span></a></li>
                 <li><a href="">FULL WIDTH<span>test text here</span></a></li>
                 <li><a href="">PORTFOLIO<span>test text here</span></a></li>
-                <li><a href="">DROPDOWN<span>test text here</span></a></li>
+                <li>
+                  <a href="" class="dropdown">DROPDOWN<span>test text here</span></a>
+                  
+                </li>
             </ul>
           </div>
           <div class="col-md-4 social-area">
@@ -60,7 +60,6 @@
             </ul>
           </div>
         </div>
-      </div>
     </div>
     <!-- banner area -->
     <div id="banner-area">
@@ -76,16 +75,15 @@
            <div class="container">
              <div class="row">
                <div class="col-md-12">
-              <p>Dapiensociis temper donec auctortortis cumsan et curabitur condis lorem loborttis leo. Ipsumcommodo libero nunc at in velis tincidunt sed.</p>
-            </div>
+                  <p>Dapiensociis temper donec auctortortis cumsan et curabitur condis lorem loborttis leo. Ipsumcommodo libero nunc at in velis tincidunt sed.</p>
+                </div>
              </div>
            </div>
-           </div>
+          </div>
       </div>
     </div>
     <!-- client profile -->
-    <div id="client-area">
-      <div class="container"> 
+    <div id="client-area" class="global-padding">
         <div class="row">
           <div class="col-md-12">
             <h2>In fringilla massa ut nisi ullamcorper</h2>
@@ -115,10 +113,8 @@
           </div>
         </div>
         <hr class="thinning-line"/>
-      </div>
     </div> 
-    <section id="project-section">
-      <div class="container">
+    <section id="project-section" class="global-padding">
         <div class="row ">
           <div class="col-md-4 project-title">
             <p>our Lastest</p>
@@ -136,10 +132,9 @@
             <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
             <button class="btn">read more >></button>
           </div>
-      </div>
+        </div>
     </section>
-    <footer>
-      <div class="container">
+    <footer >
         <div id="usefull-link">
           <div class="row">
             <div class="col-md-4 about-link">
@@ -176,22 +171,21 @@
                 <input type="text" name="eamil" id="email" placeholder="Email">
                 <input type="submit" value="submit" class="btn">
               </form>
-              <h3>contact us</h3>
-              <p>Tel:xxxxxx xxxxxxxx</p>
-              <p>Email:contact@mydomain.com</p>
+              <div id="contact">
+                <h3>contact us</h3>
+                <p>Tel:xxxxxx xxxxxxxx</p>
+                <p>Email:contact@mydomain.com</p>
+              </div>
             </div>
           </div>
         </div>
-        <div id="copy-right">
-          <div class="row">
-            <div class="col-md-6">Copyright © 2013 - All Rights Reserved - Domain Name</div>
-            <div class="col-md-6">Template by OS Templates</div>
-          </div>
-        </div>
-      </div>
     </footer>
-
-
+    <div id="copy-right" class="global-padding">
+      <div class="row">
+        <div class="col-md-6">Copyright © 2013 - All Rights Reserved - Domain Name</div>
+        <div id="template" class="col-md-6">Template by OS Templates</div>
+       </div>
+    </div>
 
   <script src="src/js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -208,5 +202,4 @@
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
-
 </html>
