@@ -66,7 +66,6 @@ p{
 }
 #main-menu ul#nav li {
     display: inline-block;
-    
     padding:0px 15px;
     border-right: 2px solid #c9c9c9;
 }
@@ -90,6 +89,25 @@ p{
     color: #d54346 ;
     
 }
+.dropdown{
+    position: relative;
+   
+}
+.dropdown-content{
+    display:none;
+    position: absolute;
+    background-color: #f8f8f8;
+    min-width: 150px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown-content a{
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
 
 /* social media */
 
