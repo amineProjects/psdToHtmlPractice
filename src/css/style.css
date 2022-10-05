@@ -1,15 +1,23 @@
+/* Custom Raleway font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* Custom font Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
+    font-family: Roboto;
     background-color: #f8f8f8;
-    font-family: 'Karma', serif;
     line-height: 1.5em;
     font-weight: 400;
 }
 
 h1,h2,h3,h4,h5,h6 {
+    font-family: Raleway !important;
     font-weight: 500;
     line-height: 1.5em;
 }
 p{
+    font-family: Roboto;
     font-weight: 400;
     line-height: 1.5em;
 }
@@ -33,14 +41,14 @@ p{
     float: right;
 }
 .search-area input[type="search"]{
-    border: 1px solid #dddddd;
+    
     padding: 10px 6px;
     height: 32px;
     background-color: white; 
     color: #7f7f7f;
 }
 .search-area input[type="submit"]{
-    width: 73px;
+    width: 83px;
     color: white;
     background-color: #d54346;
     border: 1px solid #d54346;
@@ -49,8 +57,7 @@ p{
     transition: 0.5s;
 }
 .search-area input[type="submit"]:hover{
-    background: #792728;
-    border: 1px solid #792728;
+    background: #d13e40;
 }
 
 /* Main Menu */
@@ -388,4 +395,16 @@ footer ul li:before {
 /* overrid boostrap calsses */
 .row{
     margin-right: 0;
+}
+
+/* Search box */
+.search-box{
+    color: #111 !important;
+    border: 1px solid #fff !important;
+    border-radius: 50px !important;
+}
+
+
+.search-btn{
+    border-radius: 50px;
 }

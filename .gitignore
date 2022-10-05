@@ -1,2 +1,8 @@
-
+bootstrap.min.css
 psd/
+normalize.css
+main.css
+src/img/
+js/vendor/
+bootstrap.min.js
+plugins.js
